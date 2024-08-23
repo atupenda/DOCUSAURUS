@@ -4,10 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AFYA MSAFIRI',
-  tagline: 'THE UNITED REPUBLIC OF TANZANIA'
+  tagline: 'THE UNITED REPUBLIC OF TANZANIA',
 
-',
-  favicon: 'img/favicon.ico',
+   favicon: 'img/favicon.ico'
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -68,9 +67,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -87,7 +86,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'documentation',
               to: '/docs/intro',
             },
           ],
