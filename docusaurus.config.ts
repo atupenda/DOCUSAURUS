@@ -3,8 +3,10 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'AFYA MSAFIRI',
+  tagline: 'THE UNITED REPUBLIC OF TANZANIA'
+
+',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -60,7 +62,7 @@ const config: Config = {
     navbar: {
       title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'MY AFYAMSAFIRI Logo',
         src: 'img/logo.svg',
       },
       items: [
