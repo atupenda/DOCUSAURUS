@@ -6,7 +6,7 @@ const config: Config = {
   title: 'AFYA MSAFIRI',
   tagline: 'THE UNITED REPUBLIC OF TANZANIA',
 
-   favicon: 'img/favicon.ico'
+   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
