@@ -4,7 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AFYA MSAFIRI',
-  tagline: 'THE UNITED REPUBLIC OF TANZANIA',
+  tagline: 'THE UNITED REPUBLIC OF TANZANIA MINISTRY OF HEALTH',
+
 
    favicon: 'img/favicon.ico',
 
@@ -59,10 +60,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'My homepage',
       logo: {
         alt: 'MY AFYAMSAFIRI Logo',
-        src: 'img/logo.svg',
+        src: 'static/img/logo.svg',
       },
       items: [
         {
