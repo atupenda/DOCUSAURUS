@@ -19,15 +19,15 @@ const FeatureList: FeatureItem[] = [
     //
   {
     title: 'my afya msafiri',
-    Svg: require('static/img/logo.svg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
         ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
-  },
-  //{
+},
+  
    // title: 'Powered by React',
    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     //description: (
