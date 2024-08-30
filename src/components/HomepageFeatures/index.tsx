@@ -26,43 +26,41 @@ const FeatureList: FeatureItem[] = [
      // </>
     //),
 //},
-  //(
-   // title: ' My Afya Msafiri',
-    //Svg: require('@site/static/img/logo.svg').default,
-    //description: 
-   // (
-     // <>
-     //  Extend or customize your website layout by reusing React. Docusaurus can
-      //be extended while reusing the same header and footer.
-     //</>
-//),
-//},
+
+  {
+    title: ' My Afya Msafiri',
+    Svg: require('@site/static/img/logo.svg').default,
+    description:(
+    
+      <>
+       Extend or customize your website layout by reusing React. Docusaurus can
+      be extended while reusing the same header and footer.
+     </>
+),
+},
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className={styles.feature}>
+      
+        <Svg className={styles.featureSvg} role=" img" />
+        <h1 className={styles.title}>{title}</h1>
+        <p>className={styles.description}{description}</p>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
+  
   );
 }
 
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
+     {FeatureList.map((props, idx) => (
+    <Feature key={idx} {...props} />
+         
+       ))}
+        
+      
     </section>
   );
 }
