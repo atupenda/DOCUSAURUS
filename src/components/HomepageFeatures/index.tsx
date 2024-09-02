@@ -33,8 +33,8 @@ const FeatureList: FeatureItem[] = [
     description:(
     
       <>
-       Extend or customize your website layout by reusing React. Docusaurus can
-      be extended while reusing the same header and footer.
+        user guide for electronic screening of travelers and public health events at points of entry<code>docs</code> directory.
+        
      </>
 ),
 },
