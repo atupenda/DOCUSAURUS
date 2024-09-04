@@ -33,34 +33,29 @@ const FeatureList: FeatureItem[] = [
     description:(
     
       <>
-        user guide for electronic screening of travelers and public health events at points of entry<code>docs</code> directory.
-        
-     </>
+        user guide for electronic screening of travelers and public health.
+        </>
 ),
 },
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={styles.feature}>
-      
-        <Svg className={styles.featureSvg} role=" img" />
-        <h1 className={styles.title}>{title}</h1>
-        <p>className={styles.description}{description}</p>
-      </div>
-  
+    
+<div className={styles.features}>
+        <Svg className={styles.featureSvg} role="img" />
+    <h1 className={styles.title}>{title}</h1>
+    <p className={styles.description}>{description}</p>
+    </div>
   );
 }
 
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-     {FeatureList.map((props, idx) => (
-    <Feature key={idx} {...props} />
-         
-       ))}
-        
-      
-    </section>
+       {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+       </section>
   );
 }

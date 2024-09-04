@@ -24,12 +24,12 @@
 .title {
   font-size: 1.2rem; /* Fixed typo from 'fron- size' to 'font-size' and added missing semicolon */
   margin-bottom: 20px; /* Fixed typo from 'margin -bottom' to 'margin-bottom' */
-  color: #000; /* Added a default color value, replace as needed */
+  color: #0000; /* Added a default color value, replace as needed */
 }
 
 /* Description styles */
 .description {
   font-size: 1.2rem; /* Fixed typo from 'font- size' to 'font-size' and added missing semicolon */
-  color: #000; /* Added a default color value, replace as needed */
+  color: #0000; /* Added a default color value, replace as needed */
   line-height: 1.6; /* Added missing semicolon */
 }

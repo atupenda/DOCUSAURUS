@@ -62,7 +62,7 @@ const config: Config = {
     navbar: {
       title: 'My homepage',
       logo: {
-        alt: 'MY AFYAMSAFIRI Logo',
+       
         src: 'static/img/logo.svg',
       },
       items: [

@@ -11,8 +11,8 @@ Phone
 
 *Figure 1: Example of computing devices that can be used to access Afyamsafiri*
 
-Chrome
-Firefox
-Microsoft Edge
+Chrome![alt text](../../static/img/chrome.png)
+Firefox![alt text](../../static/img/firefox.png)
+Microsoft Edge!![alt text](<../../static/img/microsoft edge.png>)
 
 *Figure 2: Recommended web browsers that can be used to access Afyamsafiri*
